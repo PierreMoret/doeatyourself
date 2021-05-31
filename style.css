@@ -1,18 +1,16 @@
-html body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
 body {
   font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 h1 h2 h3 h4 h5 h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-h1 {
+.h1 {
   font-weight: 800;
   font-size: 29.03px;
 }
@@ -42,12 +40,12 @@ h6 {
   font-size: 12px;
 }
 
-body .small {
+.small {
   font-weight: 300;
   font-size: 12px;
 }
 
-body .regular {
+.regular {
   font-weight: 400;
   font-size: 14px;
 }
@@ -56,3 +54,6 @@ body .large {
   font-weight: 700;
   font-size: 17px;
 }
+
+
+/* Boutons*/
