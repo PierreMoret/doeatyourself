@@ -5,6 +5,30 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+/* /////////////////////////////// */
+
+/*Variables*/
+
+:root {
+
+  /*Couleur*/
+
+  --blue-prim : #029F98;
+  --blue-sec : #5CE3C5;
+  --red-prim : #F3444E;
+  --red-sec : #FF6B62;
+
+  /*Gris*/
+
+  --g1 : #F2F3F3;
+  --g2 : #BFC3C3;
+  --g3 : #8C9393;
+  --g4 : #596363;
+  --g5 : #263433;
+  --g6 : #00100F;
+}
+
+/* /////////////////////////////// */
 
 .heading-1 .heading-2 .heading-3 .heading-4 .heading-5 .heading-6 {
   font-family: 'Poppins', sans-serif;
