@@ -108,13 +108,19 @@ body {
 }
 
 .label-number{
-  
+
 }
 
 /* /////////////////////////////// */
 
 /* Progression points */
+.ppoint-unchecked{
 
+}
+
+.ppoint-checked{
+  
+}
 
 /* /////////////////////////////// */
 
