@@ -100,6 +100,10 @@ body {
 
 }
 
+.tab :active{
+
+}
+
 /* /////////////////////////////// */
 
 /* Labels */
@@ -114,12 +118,12 @@ body {
 /* /////////////////////////////// */
 
 /* Progression points */
-.ppoint-unchecked{
+.progresspoint :checked{
 
 }
 
-.ppoint-checked{
-  
+.progresspoint :default{
+
 }
 
 /* /////////////////////////////// */
@@ -155,17 +159,26 @@ body {
 /* progression bar */
 
 
+
 /* /////////////////////////////// */
 
 /* liste discussion */
 
+.discussion-list{
 
+}
 /* /////////////////////////////// */
+
 
 /* messages */
 
+.message{
+
+}
+
 
 /* /////////////////////////////// */
+
 
 /* icones */
 
