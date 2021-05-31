@@ -96,6 +96,7 @@ body {
 
 /* Header */
 
+.header-desktop
 
 /* /////////////////////////////// */
 
@@ -103,26 +104,47 @@ body {
 
 /* Header smartphone */
 
+.header-mobile{
+
+}
 
 /* /////////////////////////////// */
 
 /* Logo */
 
+.logo{
+
+}
 
 /* /////////////////////////////// */
 
 /* Onglets */
 
+.tab{
+
+}
 
 /* /////////////////////////////// */
 
 /* Labels */
+.label-defaut{
 
+}
+
+.label-number{
+
+}
 
 /* /////////////////////////////// */
 
 /* Progression points */
+.ppoint-unchecked{
 
+}
+
+.ppoint-checked{
+  
+}
 
 /* /////////////////////////////// */
 
@@ -143,6 +165,9 @@ body {
 
 /* options de partage */
 
+.share{
+
+}
 
 /* /////////////////////////////// */
 
