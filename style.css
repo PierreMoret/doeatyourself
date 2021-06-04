@@ -82,11 +82,11 @@ body {
 
 /* Boutons */
 
-.btn-prim{
+.btn-prim {
 
 }
 
-.btn-sec{
+.btn-sec {
 
 }
 
@@ -96,7 +96,9 @@ body {
 
 /* Header */
 
-.header-desktop
+.header-desktop {
+
+}
 
 /* /////////////////////////////// */
 
@@ -104,7 +106,7 @@ body {
 
 /* Header smartphone */
 
-.header-mobile{
+.header-mobile {
 
 }
 
@@ -112,7 +114,7 @@ body {
 
 /* Logo */
 
-.logo{
+.logo {
 
 }
 
@@ -120,36 +122,38 @@ body {
 
 /* Onglets */
 
-.tab{
+.tab {
 
 }
 
-.tab :active{
+.tab:active {
 
 }
 
 /* /////////////////////////////// */
 
 /* Labels */
-.label-defaut{
+.label-defaut {
 
 }
 
-.label-number{
+.label-number {
 
 }
 
 /* /////////////////////////////// */
 
 /* Progression points */
-.progresspoint :checked{
+.progresspoint {
 
 }
 
 
-.progresspoint :default{
+.progresspoint:default {
 
-.progresspoint :checked{
+}
+
+.progresspoint:checked {
 
 
 }
@@ -157,22 +161,22 @@ body {
 /* /////////////////////////////// */
 
 /* Selection (up-down) */
-.selection{
+.selection {
 
 }
 
 /* /////////////////////////////// */
 
 /* Notation etoiles */
-.star{
+.star {
 
 }
 
-.score{
+.score {
 
 }
 
-.comment{
+.comment {
 
 }
 
@@ -185,7 +189,7 @@ body {
 
 /* options de partage */
 
-.share{
+.share {
 
 }
 
@@ -204,7 +208,7 @@ body {
 
 /* liste discussion */
 
-.discussion-list{
+.discussion-list {
 
 }
 /* /////////////////////////////// */
@@ -212,7 +216,7 @@ body {
 
 /* messages */
 
-.message{
+.message {
 
 }
 
