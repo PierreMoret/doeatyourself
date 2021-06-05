@@ -101,7 +101,9 @@ body {
   color: white;
 }
 
-
+.btn-prim:hover{
+  background-color: var(--blue-prim);
+}
 
 .btn-sec {
   color: var(--blue-prim);
