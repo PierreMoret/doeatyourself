@@ -91,6 +91,12 @@ body {
 /* Boutons */
 
 .btn-prim {
+  height: 45px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--blue-prim);
+  color: white;
 
 }
 
