@@ -65,11 +65,13 @@ body {
 .heading-5 {
   font-weight: 700;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .heading-6 {
   font-weight: 600;
   font-size: 12px;
+  text-transform: uppercase;
 }
 
 .text-small {
