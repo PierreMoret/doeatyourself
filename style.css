@@ -267,6 +267,8 @@ a .profile {
   color: var(--g1);
   stroke: 1px solid var(--g3);
   cursor: pointer;
+  width: 20px;
+  height: 20px;
 
 }
 
