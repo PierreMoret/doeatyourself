@@ -272,8 +272,8 @@ a .profile {
 }
 
 .rating{
-  display: block;
-  text-align: center;
+  display: inline-block;
+  position: relative;
 }
 
 .stars{
