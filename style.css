@@ -267,10 +267,10 @@ a .profile {
   color: var(--g1);
 
   cursor: pointer;
-  
+
 }
 
-.ra-star.blue{
+.fa-star.blue{
   color: var(--blue-sec);
 }
 
