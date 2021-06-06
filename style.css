@@ -272,7 +272,7 @@ a .profile {
 }
 
 .rating{
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
 }
 
