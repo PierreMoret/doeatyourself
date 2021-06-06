@@ -199,7 +199,7 @@ a .profile {
   border: none;
   background-color: var(--g1);
   color: var(--g5);
-  display: inline;
+  display: inline-flex;
   text-align: center;
 
 }
