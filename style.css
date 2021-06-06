@@ -263,8 +263,24 @@ a .profile {
 /* /////////////////////////////// */
 
 /* Notation etoiles */
-.star {
+.ra-star {
+  color: var(--g1);
+  stroke: var(--g3);
+}
 
+.ra-star.blue{
+  color: var(--blue-sec);
+}
+
+.rating{
+  display: flex;
+  flex-direction: row;
+}
+
+.stars{
+  display: inline-flex;
+  justify-content: center;
+  font-size: 3em;
 }
 
 .score {
