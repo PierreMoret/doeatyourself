@@ -299,7 +299,7 @@ height: 20px;
 .msg-placeholder{
   border-radius: 10px;
   border: none;
-  background: #3333;
+  background: var(--g1);
   padding: 10px;
   height: 50px;
 }
