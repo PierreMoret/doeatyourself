@@ -199,6 +199,8 @@ a .profile {
   border: none;
   background-color: var(--g1);
   color: var(--g5);
+  display: inline-block;
+  text-align: center;
 
 }
 
