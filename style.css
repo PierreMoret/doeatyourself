@@ -265,7 +265,7 @@ a .profile {
 /* Notation etoiles */
 .fa-star {
   color: var(--g1);
-  border: 1px solid var(--g3);
+  stroke: 1px solid var(--g3);
   cursor: pointer;
 
 }
