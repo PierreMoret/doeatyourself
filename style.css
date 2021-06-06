@@ -216,10 +216,14 @@ a .profile {
 
 .label-number .l-number{
   color: var(--red-sec);
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .label-number .l-text{
   color: var(--g5);
+  font-weight: 500;
+  font-size: 17px;
 }
 
 /* /////////////////////////////// */
