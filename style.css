@@ -205,7 +205,17 @@ a .profile {
 }
 
 .label-number {
+  height: 40px;
+  padding: 7px 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--g1);
+  display: inline;
+  text-align: center;
+}
 
+.label-number .l-number{
+  color: var(--red-sec);
 }
 
 /* /////////////////////////////// */
