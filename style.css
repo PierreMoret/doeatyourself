@@ -263,15 +263,13 @@ a .profile {
 /* /////////////////////////////// */
 
 /* Notation etoiles */
-.fa-star {
+.uis-star {
   color: var(--g1);
   stroke: 1px solid var(--g3);
   cursor: pointer;
-  
-
 }
 
-.fa-star.blue{
+.uis-star.blue{
   color: var(--blue-sec);
 }
 
