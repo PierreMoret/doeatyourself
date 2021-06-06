@@ -282,12 +282,24 @@ a .profile {
   font-size: 3em;
 }
 
-.score {
+.score{
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
 
+.score.number-1 {
+  color: var(--blue-sec);
+}
+
+.score.number-2{
+  color: var(--g3);
 }
 
 .comment {
-
+  color: var(--g5);
+  font-weight: 300;
+  font-size: 12px;
 }
 
 /* /////////////////////////////// */
