@@ -266,6 +266,8 @@ a .profile {
 .ra-star {
   color: var(--g1);
   stroke: var(--g3);
+  cursor: pointer;
+  padding: 0.0625rem;
 }
 
 .ra-star.blue{
