@@ -218,6 +218,10 @@ a .profile {
   color: var(--red-sec);
 }
 
+.label-number .l-text{
+  color: var(--g5);
+}
+
 /* /////////////////////////////// */
 
 /* Progression points */
