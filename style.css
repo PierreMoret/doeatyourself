@@ -204,6 +204,9 @@ a .profile {
 
 /* Progression points */
 .progresspoint {
+  height: 20px;
+  width: 20px;
+  background: var(--g1);
 
 }
 
