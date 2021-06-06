@@ -262,7 +262,9 @@ a .profile {
 /* progression bar */
 
 .progress-bar{
-
+color: var(--blue-prim);
+width: 250px;
+height: 20px;
 }
 
 /* /////////////////////////////// */
