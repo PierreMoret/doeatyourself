@@ -94,19 +94,22 @@ body {
 
 .btn-prim {
   height: 45px;
-  width: 150px;
+  padding: 15px;
   border-radius: 10px;
   border: none;
   background-color: var(--blue-prim);
   color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 .btn-prim:hover{
-  background-color: var(--blue-prim);
+  background-color: var(--blue-sec);
 }
 
 .btn-sec {
   color: var(--blue-prim);
+  transition-duration: 0.4s;
 }
 
 .btn-sec:hover{
@@ -258,7 +261,9 @@ a .profile {
 
 /* progression bar */
 
+.progress-bar{
 
+}
 
 /* /////////////////////////////// */
 
