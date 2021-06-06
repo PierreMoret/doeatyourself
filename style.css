@@ -272,8 +272,8 @@ a .profile {
 }
 
 .rating{
-  display: flex;
-  flex-direction: row;
+  display: inline;
+  text-align: center;
 }
 
 .stars{
@@ -286,8 +286,6 @@ a .profile {
   font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
-  display: inline;
-  text-align: center;
 }
 
 .number-1 {
@@ -302,8 +300,6 @@ a .profile {
   color: var(--g5);
   font-weight: 300;
   font-size: 12px;
-  display: inline;
-  text-align: center;
 }
 
 /* /////////////////////////////// */
