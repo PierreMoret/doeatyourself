@@ -261,6 +261,10 @@ a .profile {
 /* /////////////////////////////// */
 
 /* Notation etoiles */
+.stars{
+  height: 20px;
+}
+
 .uil-star {
   color: var(--g3);
 }
