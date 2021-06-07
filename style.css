@@ -299,7 +299,7 @@ body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  margin-left: 4px;
+  margin-left: 10px;
 }
 
 .number-1 {
@@ -314,7 +314,7 @@ body {
   display: flex;
   align-items: center;
   color: var(--g5);
-  margin-left: 4px;
+  margin-left: 10px;
 }
 
 /* /////////////////////////////// */
