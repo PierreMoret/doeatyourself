@@ -338,10 +338,10 @@ body {
 
 /* /////////////////////////////// */
 
+/* Infos titre (recette) */
 
 
-
-
+/* /////////////////////////////// */
 
 /* options de partage */
 
@@ -399,6 +399,7 @@ box-shadow: inset -150px 0 0 var(--g1);
   background: var(--g1);
   padding: 10px;
   height: 50px;
+
 }
 
 /* /////////////////////////////// */
