@@ -477,13 +477,4 @@ box-shadow: inset -150px 0 0 var(--g1);
 .picto {
   width: 34px;
 }
-
-.blue-prim {
-  filter: invert(36%) sepia(91%) saturate(1578%) hue-rotate(151deg) brightness(94%) contrast(98%);;
-}
-
-.blue-sec {
-  filter: invert(87%) sepia(71%) saturate(449%) hue-rotate(82deg) brightness(106%) contrast(78%);
-}
-
 /* /////////////////////////////// */
