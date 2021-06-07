@@ -449,9 +449,9 @@ box-shadow: inset -150px 0 0 var(--g1);
 /* /////////////////////////////// */
 
 /* liste discussion */
-
-.discussion-list {
-  background: var(--g1);
+.discussion-list-marie{
+  background: var(--blue-prim);
+  color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -460,9 +460,28 @@ box-shadow: inset -150px 0 0 var(--g1);
   /* height: 80px; */
   padding: 19px 27px 19px 27px;
   border-radius: 9px 0 0 0;
-
 }
 
+.discussion-list-marie .uil-comment-message{
+  color: white;
+}
+
+.discussion-list-marie .mess-num{
+  color: white;
+}
+
+.discussion-list {
+  background: var(--g1);
+  color: var(--g6)
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  /* height: 80px; */
+  padding: 19px 27px 19px 27px;
+  border-radius: 0 0 0 9px;
+}
 
 .pp-block{
   display: flex;
@@ -476,6 +495,20 @@ box-shadow: inset -150px 0 0 var(--g1);
   border-radius: 50%;
   background: var(--g2);
   margin-right: 5px;
+}
+
+.uil-comment-message {
+  color: var(--g6);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin-left: 22px;
+}
+
+.mess-num {
+  color: var(--g6);
+  display: flex;
+  align-items: flex-end;
 }
 /* /////////////////////////////// */
 
