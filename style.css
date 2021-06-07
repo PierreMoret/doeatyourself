@@ -99,7 +99,9 @@ body {
 
 /* Colones */
 
-.col
+.col{
+
+}
 
 /* /////////////////////////////// */
 
@@ -107,8 +109,8 @@ body {
 /* Boutons */
 
 .btn-prim {
-  height: 45px;
-  padding: 0 15px 0 15px;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
   border-radius: 5px;
   border: none;
   background-color: var(--blue-prim);
@@ -288,8 +290,10 @@ body {
 /* /////////////////////////////// */
 
 /* Selection (up-down) */
-.selection {
-
+.num-select {
+  border: none;
+  border-bottom: 1px solid var(--g4);
+  width: 100px;
 }
 
 /* /////////////////////////////// */
@@ -434,7 +438,7 @@ box-shadow: inset -150px 0 0 var(--g1);
   border: none;
   background: var(--g1);
   padding: 10px;
-  height: 50px;
+  height: 30px;
 
 }
 
