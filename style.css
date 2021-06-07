@@ -133,6 +133,9 @@ body {
   width: 100%;
 }
 
+.uil-user{
+  font-size: 40px;
+}
 
 .profile {
   text-decoration: none;
@@ -268,9 +271,13 @@ body {
   font-size: 20px;
 }
 
-.uis-star.blue{
-  color: var(--blue-sec);
+.uis-star{
+
   font-size: 20px;
+}
+
+.blue {
+  color: var(--blue-sec);
 }
 
 .rating{
