@@ -130,8 +130,10 @@ body {
 
 /* Colones */
 
-.col{
-
+.col-1-2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
 }
 
 /* /////////////////////////////// */
