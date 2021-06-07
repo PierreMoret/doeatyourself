@@ -126,6 +126,15 @@ body {
   text-align: center;
 }
 
+span {
+  font-weight: 700;
+  color: var(--red-prim);
+}
+
+.ul {
+  padding: 10px 0 0 20px;
+}
+
 /* Colones */
 
 .grid-1-2{
@@ -140,7 +149,7 @@ body {
   grid-gap: 20px;
 }
 
-.resp-img {
+.img-flex {
   height: auto;
   max-width: 100%;
 }
