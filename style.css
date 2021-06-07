@@ -344,9 +344,34 @@ body {
 /* /////////////////////////////// */
 
 /* options de partage */
+.btn-ajouter{
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #fff;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
 
-.share {
+.uil-plus{
+  color: var(--blue-prim);
+  font-size: 24px;
+}
 
+.uil-plus:hover{
+  color: var(--blue-sec);
+}
+
+.textp{
+  color: var(--g5);
+}
+.ajouter {
+  display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 /* /////////////////////////////// */
