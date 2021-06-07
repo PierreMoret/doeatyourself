@@ -323,6 +323,12 @@ body {
   border: none;
   border-bottom: 1px solid var(--g4);
   width: 55px;
+  height: 30px;
+  
+}
+
+.num-select:active{
+border-color: var(--blue-prim);
 }
 
 /* /////////////////////////////// */
@@ -335,7 +341,6 @@ body {
 }
 
 .uis-star{
-
   font-size: 20px;
 }
 
