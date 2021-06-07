@@ -262,7 +262,7 @@ a .profile {
 
 /* Notation etoiles */
 .stars{
-  font-size: 2px;
+  font-weight:200;
 }
 
 .uil-star {
