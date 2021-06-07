@@ -109,7 +109,7 @@ body {
 .btn-prim {
   height: 45px;
   padding: 0 15px 0 15px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   background-color: var(--blue-prim);
   color: white;
@@ -405,7 +405,7 @@ box-shadow: inset -150px 0 0 var(--g1);
 }
 
 .msg-placeholder{
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   background: var(--g1);
   padding: 10px;
