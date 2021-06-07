@@ -329,9 +329,12 @@ body {
 /* progression bar */
 
 .progress-bar{
-color: var(--blue-prim);
-width: 250px;
-height: 20px;
+background: var(--blue-prim);
+border: 1px var(--g1) solid;
+border-radius: 10px;
+width: 300px;
+height: 1rem;
+box-shadow: inset -150px 0 0 var(--g1);
 }
 
 /* /////////////////////////////// */
