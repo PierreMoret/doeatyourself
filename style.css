@@ -283,13 +283,16 @@ a .profile {
 }
 
 .stars{
-  display: inline-flex;
-  justify-content: center;
+  display: flex;
+  align-items: center;
   font-size: 3em;
 }
 
 .score{
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+
 }
 
 .number-1 {
@@ -301,6 +304,8 @@ a .profile {
 }
 
 .comment {
+  display: flex;
+  align-items: center;
   color: var(--g5);
 }
 
