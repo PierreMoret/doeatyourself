@@ -133,6 +133,12 @@ body {
   grid-gap: 20px;
 }
 
+.col-1-4{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 20px;
+}
+
 /* /////////////////////////////// */
 
 
