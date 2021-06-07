@@ -133,6 +133,9 @@ body {
   width: 100%;
 }
 
+.uil-user{
+  font-size: 40px;
+}
 
 .profile {
   text-decoration: none;
@@ -268,20 +271,27 @@ body {
   font-size: 20px;
 }
 
-.uis-star.blue{
-  color: var(--blue-sec);
+.uis-star{
+
   font-size: 20px;
+}
+
+.blue {
+  color: var(--blue-sec);
 }
 
 .rating{
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-content: center;
+  line-height: 100%;
 }
 
 .stars{
   display: flex;
   align-items: center;
+    align-content: center;
   font-size: 3em;
 }
 
@@ -289,7 +299,7 @@ body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-
+  margin-left: 4px;
 }
 
 .number-1 {
@@ -304,6 +314,7 @@ body {
   display: flex;
   align-items: center;
   color: var(--g5);
+  margin-left: 4px;
 }
 
 /* /////////////////////////////// */
