@@ -147,7 +147,7 @@ body {
   background-color: var(--blue-prim);
   color: white;
   cursor: pointer;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
 }
 
 .btn-prim:hover{
@@ -156,7 +156,7 @@ body {
 
 .btn-sec {
   color: var(--blue-prim);
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
 }
 
 .btn-sec:hover{
@@ -324,7 +324,7 @@ body {
   border-bottom: 1px solid var(--g4);
   width: 55px;
   height: 30px;
-  
+
 }
 
 .num-select:active{
