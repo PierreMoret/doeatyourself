@@ -1,0 +1,11 @@
+.accueil-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+
+.map {
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
