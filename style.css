@@ -139,6 +139,14 @@ body {
   grid-gap: 20px;
 }
 
+.resp-img {
+  height: auto;
+  max-width: 100%;
+}
+
+.col {
+
+}
 /* /////////////////////////////// */
 
 
