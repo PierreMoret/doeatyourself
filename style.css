@@ -133,20 +133,17 @@ body {
   width: 100%;
 }
 
-a .profile {
-}
 
 .profile {
   text-decoration: none;
   display: flex;
+  align-items: center;
   padding: 9px 25px;
-}
-
-.profile button{
   background-color: white;
   border: none;
-
 }
+
+
 
 .profile:hover {
   color: var(--blue-sec);
