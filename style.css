@@ -480,7 +480,7 @@ box-shadow: inset -150px 0 0 var(--g1);
   width: 200px;
   /* height: 80px; */
   padding: 19px 27px 19px 27px;
-  border-radius: 0 0 0 9px;
+  border-bottom: 1px solid white;
 }
 
 .pp-block{
@@ -510,6 +510,20 @@ box-shadow: inset -150px 0 0 var(--g1);
   display: flex;
   align-items: flex-end;
 }
+
+.discussion-list-bottom {
+  background: var(--g1);
+  color: var(--g6)
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  /* height: 80px; */
+  padding: 19px 27px 19px 27px;
+  border-radius: 0 0 0 9px;
+}
+
 /* /////////////////////////////// */
 
 
