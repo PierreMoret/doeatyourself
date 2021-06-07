@@ -450,7 +450,15 @@ box-shadow: inset -150px 0 0 var(--g1);
 /* liste discussion */
 
 .discussion-list {
+  background: var(--g1);
+}
 
+.pp{
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--g2);
 }
 /* /////////////////////////////// */
 
