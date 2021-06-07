@@ -276,8 +276,6 @@ a .profile {
 }
 
 .score{
-  font-weight: 600;
-  font-size: 12px;
   text-transform: uppercase;
 }
 
@@ -291,8 +289,6 @@ a .profile {
 
 .comment {
   color: var(--g5);
-  font-weight: 300;
-  font-size: 12px;
 }
 
 /* /////////////////////////////// */
