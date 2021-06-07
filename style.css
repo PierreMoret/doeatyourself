@@ -148,6 +148,10 @@ a .profile {
 
 }
 
+.profile:hover {
+  color: var(--blue-sec);
+}
+
 /* /////////////////////////////// */
 
 
@@ -261,17 +265,21 @@ a .profile {
 /* /////////////////////////////// */
 
 /* Notation etoiles */
+
 .uil-star {
   color: var(--g3);
+  font-size: 20px;
 }
 
 .uis-star.blue{
   color: var(--blue-sec);
+  font-size: 20px;
 }
 
 .rating{
   display: inline-flex;
   position: relative;
+  align-items: center;
 }
 
 .stars{
