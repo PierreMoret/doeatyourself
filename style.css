@@ -261,16 +261,15 @@ a .profile {
 /* /////////////////////////////// */
 
 /* Notation etoiles */
-.stars{
-  font-weight:200;
-}
 
 .uil-star {
   color: var(--g3);
+  font-size: 20px;
 }
 
 .uis-star.blue{
   color: var(--blue-sec);
+  font-size: 20px;
 }
 
 .rating{
