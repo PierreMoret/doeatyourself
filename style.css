@@ -94,7 +94,7 @@ body {
 
 .btn-prim {
   height: 45px;
-  padding: 15px;
+  padding: 0 15px 0 15px;
   border-radius: 10px;
   border: none;
   background-color: var(--blue-prim);
@@ -239,6 +239,7 @@ a .profile {
   border-radius: 50%;
   margin-right: 10px;
   background: var(--g1);
+  cursor: pointer;
 }
 
 
