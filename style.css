@@ -127,13 +127,13 @@ body {
 
 /* Colones */
 
-.col-1-2{
+.grid-1-2{
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 20px;
 }
 
-.col-1-4{
+.grid-1-4{
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-gap: 20px;
@@ -170,11 +170,6 @@ body {
 
 /* /////////////////////////////// */
 
-
-.col1-2{
-  width: 48%;
-
-}
 
 
 /* Header */
@@ -288,9 +283,7 @@ body {
   text-align: center;
 }
 
-.label-number .l-number{
-  padding-right: 4px;
-}
+
 
 
 /* /////////////////////////////// */
