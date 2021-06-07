@@ -5,9 +5,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-
-    </script>
     <title>Do Eat yourself</title>
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
@@ -37,9 +34,9 @@
       </a> -->
 
       <button class="profile heading-4">
-        <i class="uil uil-user bluep"></i>
+        <i class="uil uil-user blue"></i>
         Mon profil
-      </a>
+      </button>
 
 
     </header>
@@ -84,8 +81,7 @@
     <br>
 
     <div class="message">
-      <div class="img-contain">
-      </div>
+      <div class="img-contain"></div>
       <input type="text" name="" value="" class="msg-placeholder" placeholder="Ici votre message">
     </div>
 
@@ -93,8 +89,8 @@
     <br>
 
     <div class="progresspoint" onclick="pointFilled()">
-      <div class="point"  onclick="pointFilled()"></div>
-      <div class="point"  onclick="pointFilled()"></div>
+      <div class="point-active"  onclick="pointFilled()"></div>
+      <div class="point-active"  onclick="pointFilled()"></div>
       <div class="point"  onclick="pointFilled()"></div>
     </div>
 
@@ -119,14 +115,14 @@
     <div class="rating">
 
       <div class="stars">
-            <i class="uis uis-star blues"></i>
-            <i class="uis uis-star blues"></i>
-            <i class="uis uis-star blues"></i>
-            <i class="uis uis-star blues"></i>
+            <i class="uis uis-star blue"></i>
+            <i class="uil uil-star"></i>
+            <i class="uil uil-star"></i>
+            <i class="uil uil-star"></i>
             <i class="uil uil-star"></i>
       </div>
       <div class="score heading-6">
-        <span class="number-1">4</span>
+        <span class="number-1">1</span>
         <span class="number-2">/5</span>
       </div>
       <a class="comment text-small" href="#">26 avis</a>
@@ -138,11 +134,12 @@
     
 
 
-      <script type="text/javascript">
-        function pointFilled() {
-        document.getElemntByClassName("point").style.background = "var(--blue-sec)";
-        }
-      </script>
+      <!-- <script >
+
+      $('.point').click(function(){
+        $(this).addClass('point-active');
+      });
+      </script> -->
 
     </body>
 </html>
