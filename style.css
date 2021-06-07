@@ -19,6 +19,37 @@
   --g6 : #00100F;
 }
 
+.blue-prim {
+  color: var(--blue-prim);
+}
+.blue-sec {
+  color: var(--blue-sec);
+}
+.red-prim {
+  color: var(--red-prim);
+}
+.red-sec {
+  color: var(--red-sec);
+}
+
+.g6 {
+  color: var(--g6);
+}
+.g5 {
+  color: var(--g5);
+}
+.g4 {
+  color: var(--g4);
+}
+.g3 {
+  color: var(--g3);
+}
+.g2 {
+  color: var(--g2);
+}
+.g1 {
+  color: var(--g1);
+}
 /* /////////////////////////////// */
 
 * {
@@ -158,9 +189,7 @@ body {
   font-size: 34px;
 }
 
-.bluep{
-  color: var(--blue-prim);
-}
+
 
 .profile {
   text-decoration: none;
@@ -359,17 +388,14 @@ body {
 /* /////////////////////////////// */
 
 /* options de partage */
-.btn-ajouter{
-  appearance: none;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  text-decoration: none;
-  display: inline-block;
-  background-color: #fff;
+
+.ajouter{
+  display: flex;
+  flex-direction: column;
   cursor: pointer;
   transition-duration: 0.4s;
 }
+
 
 .uil-plus{
   color: var(--blue-prim);
@@ -380,14 +406,7 @@ body {
   color: var(--blue-sec);
 }
 
-.textp{
-  color: var(--g5);
-}
-.ajouter {
-  display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+
 
 /* /////////////////////////////// */
 
