@@ -145,6 +145,10 @@ body {
   font-size: 40px;
 }
 
+.bluep{
+  color: var(--blue-prim);
+}
+
 .profile {
   text-decoration: none;
   display: flex;
@@ -291,7 +295,7 @@ body {
   font-size: 20px;
 }
 
-.blue {
+.blues {
   color: var(--blue-sec);
 }
 
@@ -314,7 +318,7 @@ body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  margin-left: 4px;
+  margin-left: 10px;
 }
 
 .number-1 {
@@ -329,7 +333,7 @@ body {
   display: flex;
   align-items: center;
   color: var(--g5);
-  margin-left: 4px;
+  margin-left: 10px;
 }
 
 /* /////////////////////////////// */
