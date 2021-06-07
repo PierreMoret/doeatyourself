@@ -27,6 +27,10 @@
   box-sizing: border-box;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   color: var(--g6);
@@ -92,6 +96,13 @@ body {
 .center {
   text-align: center;
 }
+
+/* Colones */
+
+.col
+
+/* /////////////////////////////// */
+
 
 /* Boutons */
 
@@ -419,7 +430,7 @@ box-shadow: inset -150px 0 0 var(--g1);
 }
 
 .msg-placeholder{
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   background: var(--g1);
   padding: 10px;
