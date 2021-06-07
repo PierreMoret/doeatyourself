@@ -298,11 +298,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-content: center;
+  line-height: 100%;
 }
 
 .stars{
   display: flex;
   align-items: center;
+    align-content: center;
   font-size: 3em;
 }
 
@@ -310,7 +313,7 @@ body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-
+  margin-left: 4px;
 }
 
 .number-1 {
@@ -325,6 +328,7 @@ body {
   display: flex;
   align-items: center;
   color: var(--g5);
+  margin-left: 4px;
 }
 
 /* /////////////////////////////// */
@@ -350,9 +354,12 @@ body {
 /* progression bar */
 
 .progress-bar{
-color: var(--blue-prim);
-width: 250px;
-height: 20px;
+background: var(--blue-prim);
+border: 1px var(--g1) solid;
+border-radius: 10px;
+width: 300px;
+height: 1rem;
+box-shadow: inset -150px 0 0 var(--g1);
 }
 
 /* /////////////////////////////// */
