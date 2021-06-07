@@ -283,9 +283,7 @@ body {
   text-align: center;
 }
 
-.label-number .l-number{
-  padding-right: 4px;
-}
+
 
 
 /* /////////////////////////////// */
@@ -391,7 +389,7 @@ border-color: var(--blue-prim);
 
 /* options de partage */
 
-.ajouter{
+.partage{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -408,6 +406,15 @@ border-color: var(--blue-prim);
 }
 
 .uil-plus:hover{
+  color: var(--blue-sec);
+}
+
+.uil-share{
+  color: var(--blue-prim);
+  font-size: 24px;
+}
+
+.uil-share:hover{
   color: var(--blue-sec);
 }
 
@@ -462,7 +469,7 @@ box-shadow: inset -150px 0 0 var(--g1);
   border: none;
   background: var(--g1);
   padding: 10px;
-  height: 30px;
+  height: 40px;
 
 }
 
