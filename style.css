@@ -148,6 +148,10 @@ a .profile {
 
 }
 
+.profile:hover {
+  color: var(--blue-sec);
+}
+
 /* /////////////////////////////// */
 
 
