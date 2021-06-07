@@ -58,9 +58,6 @@
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -178,13 +175,13 @@ body {
 
 .header {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   padding: 0px 10%;
   background-color: white;
   position: fixed;
   top: 0;
-  width: 100%;
 }
 
 .uil-user{
@@ -326,7 +323,7 @@ body {
   border-bottom: 1px solid var(--g4);
   width: 55px;
   height: 30px;
-  
+
 }
 
 .num-select:active{
