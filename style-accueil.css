@@ -1,0 +1,29 @@
+.accueil-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+
+.map {
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
+
+.card-accueil {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px 0 30px 0;
+}
+
+.card-accueil img {
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

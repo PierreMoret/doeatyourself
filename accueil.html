@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-accueil.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <title>Do Eat yourself</title>
@@ -40,30 +41,75 @@
 
     <div class="content">
 
-      <h1 class="heading-1 center">Ceci est un H1</h1>
+      <h1 class="heading-1 center">Bonjour Théo !</h1>
 
   <div class="grid-1-2">
       <div class="col">
 
-        <div class="">
-          <div class="">
+        <div class="accueil-flex">
+          <div>
             <h3 class="heading-3">Marie propose de cuisiner </h3>
-            <h4 class="heading-4">Dimanche 26 Avril à 2km de chez toi</h4>
+            <h4 class="heading-4">Dimanche 26 Avril à <span>2km</span> de chez toi</h4>
           </div>
           <a href="#" class="btn-prim heading-4">Voir l'évènement</a>
         </div>
 
-        <img class="resp-img" src="assets/img/carte.png" alt="carte">
+        <img class="img-flex map" src="assets/img/carte.png" alt="carte">
 
-        <div class="">
-          <h3 class="heading-3"></h3>
-          <a href="#" class="btn-sec">Voir tous les évènements</a>
+        <div>
+          <h3 class="heading-3"><span>7</span> évènements près de chez toi !</h3>
+          <a href="#" class="btn-sec heading-4">Voir tous les évènements</a>
         </div>
 
       </div>
 
-      <div>
-        collone 2
+      <div class="col">
+        <h3 class="heading-3 g5">Recette du jour</h3>
+        <div class="card-accueil grid-1-2">
+          <img class="img-flex" src="assets/img/poulet_curry.png" alt="Poulet au curry">
+          <div class="left">
+            <div>
+              <h3 class="heading-3 g5">Poulet au curry</h3>
+              <div class="rating">
+                <div class="stars">
+                      <i class="uis uis-star blues"></i>
+                      <i class="uis uis-star blues"></i>
+                      <i class="uis uis-star blues"></i>
+                      <i class="uis uis-star blues"></i>
+                      <i class="uil uil-star"></i>
+                </div>
+                <div class="score heading-6">
+                  <span class="number-1">4</span>
+                  <span class="number-2">/5</span>
+                </div>
+                <a class="comment text-small" href="#">26 avis</a>
+              </div>
+            </div>
+            <div class="text-regular">
+              <p>Voyagez à travers de nouvelles saveurs</p>
+              <ul class="g5 ul">
+                <li><span>5</span> ingrédients </li>
+                <li>Temps moyen de prépartion : <span>20 min</span></li>
+              </ul>
+            </div>
+            <a class="btn-sec heading-4" href="#">Découvrir les recettes</a>
+          </div>
+        </div>
+
+        <h3 class="heading-3 g5">L'astuce du jour</h3>
+        <div class="card-accueil grid-1-2">
+          <img class="img-flex" src="assets/img/oignon.png" alt="Poulet au curry">
+          <div class="left">
+            <div>
+              <h3 class="heading-3 g5">Couper ses oignons sans verses une larme !</h3>
+            </div>
+            <div class="text-regular">
+              <p>Fini les yeux qui brûlent à la première incision dans un oignon...</p>
+            </div>
+            <a class="btn-sec heading-4" href="#">Découvrir les astuces</a>
+          </div>
+        </div>
+
       </div>
   </div>
 
