@@ -443,6 +443,26 @@ border-color: var(--blue-prim);
 
 /* cartes choix taches */
 
+.cc-title {
+  font-weight: bold;
+}
+
+.cc-action{
+  text-transform: uppercase;
+  font-size: 10px
+}
+
+.cc-background {
+  background: var(--g1);
+}
+
+.cc-bott {
+  background: var(--g2);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10px;
+}
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
 
