@@ -442,18 +442,23 @@ border-color: var(--blue-prim);
 /* //////////////////////////////////////////////////////////////////////////////////// */
 
 /* cartes choix taches */
+.choice-card{
+  width: 164px;
+}
 
 .cc-title {
   font-weight: bold;
+  text-align: center;
 }
 
 .cc-action{
   text-transform: uppercase;
-  font-size: 10px
+  font-size: 10px;
 }
 
-.cc-background {
+.cc-bg {
   background: var(--g1);
+  border-radius: 6px 6px 0 0;
 }
 
 .cc-bott {
@@ -462,6 +467,8 @@ border-color: var(--blue-prim);
   text-transform: uppercase;
   text-align: center;
   font-size: 10px;
+  border-radius: 0 0 6px 6px;
+  padding: 8px 6px 8px 6px;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
