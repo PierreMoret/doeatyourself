@@ -27,10 +27,6 @@ a.act-act {
   height: auto;
 }
 
-.heading-1 {
-  margin-top: 50px;
-}
-
 .food-list {
   display: flex;
   flex-direction: column;
