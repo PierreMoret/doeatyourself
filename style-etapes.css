@@ -19,9 +19,19 @@ a.act-act {
 .banniere{
   height: 365px;
   overflow: hidden;
+  margin-bottom: 50px
 }
 
 .banniere img{
   width: 100%;
   height: auto;
+}
+
+.heading-1 {
+  margin-top: 50px;
+}
+
+.food-list {
+  display: flex;
+  flex-direction: column;
 }
