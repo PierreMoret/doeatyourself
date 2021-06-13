@@ -626,3 +626,15 @@ box-shadow: inset -150px 0 0 var(--g1);
   width: 34px;
 }
 /* //////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* fil d'ariane */
+
+.ariane {
+  margin: 40px 0 5px 0;
+  color: var(--g5);
+}
+
+.ariane a{
+  color: var(--g4);
+}
