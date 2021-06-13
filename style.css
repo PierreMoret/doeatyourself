@@ -455,7 +455,10 @@ border-color: var(--blue-prim);
 .cc-action{
   text-transform: uppercase;
   font-size: 10px;
-  display: flex;
+  position: absolute;
+  top: 136px;
+  bottom: 0px;
+  margin-left: 16px;
 
 }
 
@@ -463,6 +466,7 @@ border-color: var(--blue-prim);
   background: var(--g1);
   border-radius: 6px 6px 0 0;
   height: 172px;
+  position: relative;
 }
 
 .cc-bott {
@@ -486,6 +490,13 @@ border-color: var(--blue-prim);
   padding-left: 10px;
 }
 
+.choisie .cc-title{
+  color: var(--red-sec);
+}
+
+.choisie .cc-bott {
+  background: var(--red-sec);
+}
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
 
