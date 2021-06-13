@@ -1,0 +1,12 @@
+.action-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 45px;
+  color: var(--g2);
+}
+
+.act-act {
+  color: var(--blue-prim);
+}
