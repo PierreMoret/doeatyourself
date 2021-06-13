@@ -4,9 +4,24 @@
   justify-content: space-around;
   list-style: none;
   font-size: 45px;
+
+}
+
+.action-list a {
+  text-decoration: none;
   color: var(--g2);
 }
 
-.act-act {
+a.act-act {
   color: var(--blue-prim);
+}
+
+.banniere{
+  height: 365px;
+  overflow: hidden;
+}
+
+.banniere img{
+  width: 100%;
+  height: auto;
 }
