@@ -21,4 +21,18 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 35px;
+}
+
+.gallery img{
+  border-radius: 4px;
+}
+
+.propose-flex {
+  display: flex;
+  justify-content:flex-end;
+}
+
+.partage2 {
+  padding-left: 35px;
 }

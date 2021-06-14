@@ -157,6 +157,7 @@ span {
 
 .grid-2-4-5{
   grid-template-columns: 2fr 4fr 5fr;
+  grid-template-rows: 64px auto;
 }
 
 .img-flex {
@@ -421,7 +422,6 @@ border-color: var(--blue-prim);
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 5%;
   cursor: pointer;
   transition-duration: 0.4s;
 }
