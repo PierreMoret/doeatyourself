@@ -128,7 +128,7 @@ body {
 
 span {
   font-weight: 700;
-  color: var(--red-prim);
+  color: var(--red-sec);
 }
 
 .ul {
@@ -153,6 +153,10 @@ span {
 
 .grid-7-12{
   grid-template-columns: 7fr 5fr;
+}
+
+.grid-2-4-5{
+  grid-template-columns: 2fr 4fr 5fr;
 }
 
 .img-flex {
