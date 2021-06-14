@@ -137,22 +137,22 @@ span {
 
 /* Colones */
 
-.grid-1-2{
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
+}
+
+.grid-1-2{
+  grid-template-columns: 6fr 6fr;
 }
 
 .grid-1-4{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: repeat(4, 3fr);
 }
 
 .grid-7-12{
-  display: grid;
-  grid-template-columns: 58% 42%;
-  grid-gap: 20px;
+  grid-template-columns: 7fr 5fr;
 }
 
 .img-flex {
