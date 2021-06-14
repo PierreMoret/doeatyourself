@@ -41,7 +41,8 @@
 .quantity {
   display: flex;
   justify-content:center;
-  margin-top: 16px;
+  margin: 19px 132px 16px 132px;
+  border-bottom: 2px var(--blue-prim) solid;
 }
 
 .heading-4 {
