@@ -1,0 +1,20 @@
+.container {
+  background: var(--g1);
+  border-radius: 15px;
+}
+
+.list {
+  background-color: #ffffff;
+  height: 470px;
+}
+
+.discuss {
+  background-color: #ffffff;
+}
+
+.tabs ul {
+  list-style: none;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
