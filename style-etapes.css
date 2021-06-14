@@ -35,11 +35,6 @@ a.act-act {
   height: auto;
 }
 
-.food-list {
-  display: flex;
-  flex-direction: column;
-
-}
 
 .label-number {
   /* display: inline; */
