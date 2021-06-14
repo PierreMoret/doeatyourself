@@ -5,6 +5,7 @@
 .container {
   background: var(--g1);
   border-radius: 15px;
+  margin-top: 20px;
 }
 
 .list {
@@ -69,4 +70,34 @@ margin-right: 25px;
 .uil-times-circle {
   font-size: 24px;
   margin-left: 10px;
+}
+
+.message-feed {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  height: 80%;
+}
+
+.profil-picture {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-size: 150% auto;
+  background-position: 50% center;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  max-width: 350px;
+  margin-bottom: 24px;
+}
+
+.message-text {
+  background-color: var(--g1);
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 20px;
 }
