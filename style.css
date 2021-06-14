@@ -160,6 +160,10 @@ span {
   grid-template-rows: 64px auto;
 }
 
+.grid-1-5-5-1{
+  grid-template-columns: 1fr 5fr 5fr 1fr;
+}
+
 .img-flex {
   height: auto;
   max-width: 100%;
