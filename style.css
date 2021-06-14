@@ -149,6 +149,12 @@ span {
   grid-gap: 20px;
 }
 
+.grid-7-12{
+  display: grid;
+  grid-template-columns: 58% 42%;
+  grid-gap: 20px;
+}
+
 .img-flex {
   height: auto;
   max-width: 100%;
