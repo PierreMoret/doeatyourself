@@ -155,6 +155,10 @@ span {
   grid-template-columns: 7fr 5fr;
 }
 
+.grid-2-4-5{
+  grid-template-columns: 2fr 4fr 5fr;
+}
+
 .img-flex {
   height: auto;
   max-width: 100%;
