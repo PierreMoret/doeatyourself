@@ -149,6 +149,12 @@ span {
   grid-gap: 20px;
 }
 
+.grid-7-12{
+  display: grid;
+  grid-template-columns: 58% 42%;
+  grid-gap: 20px;
+}
+
 .img-flex {
   height: auto;
   max-width: 100%;
@@ -279,7 +285,7 @@ span {
 /* Labels */
 .label-defaut {
   height: 40px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 10px;
   border-radius: 4px;
   border: none;
   background-color: var(--g1);
@@ -294,7 +300,7 @@ span {
 
 .label-number {
   height: 40px;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 10px;
   border-radius: 4px;
   border: none;
   background-color: var(--g1);
