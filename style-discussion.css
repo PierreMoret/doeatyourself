@@ -9,7 +9,11 @@
 
 .list {
   background-color: #ffffff;
-  height: 470px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px;
 }
 
 .discuss {
@@ -20,7 +24,7 @@
   list-style: none;
   padding: 10px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .top-col {
@@ -39,6 +43,7 @@
   text-align: center;
   grid-column: 2/2;
   grid-row: 2/2;
+
 }
 
 .right-col {
@@ -49,4 +54,19 @@
 .middle-col .btn-prim {
   display: inline-block;
   margin-top: 15px;
+}
+
+.plat {
+  display: inline;
+  margin-bottom: 20px ;
+}
+
+.uil-receipt-alt {
+font-size: 24px;
+margin-right: 25px;
+}
+
+.uil-times-circle {
+  font-size: 24px;
+  margin-left: 10px;
 }
