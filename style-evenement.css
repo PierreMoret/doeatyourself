@@ -7,7 +7,6 @@
 
 
 .marie-profil {
-  background: #3333;
   margin-left: 100px;
   display: flex;
 }
@@ -18,9 +17,6 @@
   margin-left: 20px;
 }
 
-.cuisine-info {
-  background: #3333;
-}
 
 .profil-picture {
   border-radius: 50%;
