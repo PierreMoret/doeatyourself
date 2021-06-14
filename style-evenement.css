@@ -9,6 +9,13 @@
 .marie-profil {
   background: #3333;
   margin-left: 100px;
+  display: flex;
+}
+
+
+.marie-info {
+  display: block;
+  margin-left: 20px;
 }
 
 .cuisine-info {
@@ -33,4 +40,8 @@
 .quartier {
   display: flex;
   align-items: center;
+}
+
+.uil-map-marker {
+  margin-right: 2px;
 }
