@@ -139,13 +139,13 @@ span {
 
 .grid-1-2{
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
 
 .grid-1-4{
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
 
