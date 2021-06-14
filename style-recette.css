@@ -31,8 +31,19 @@
 .propose-flex {
   display: flex;
   justify-content:flex-end;
+  margin-bottom: 30px;
 }
 
 .partage2 {
   padding-left: 35px;
+}
+
+.quantity {
+  display: flex;
+  justify-content:center;
+  margin-top: 16px;
+}
+
+.heading-4 {
+  padding-left: 15px;
 }
