@@ -111,6 +111,9 @@ a {
 
 .boutons {
   width: 380px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
 }
 
 .boutons a {
