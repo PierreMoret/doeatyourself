@@ -225,7 +225,9 @@ span {
   font-size: 34px;
 }
 
-
+.uil-times-circle:hover {
+  color: var(--red-prim);
+}
 
 .profile {
   text-decoration: none;
@@ -236,8 +238,6 @@ span {
   border: none;
   cursor: pointer;
 }
-
-
 
 .profile:hover {
   color: var(--blue-sec);
