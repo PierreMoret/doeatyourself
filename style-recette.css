@@ -46,6 +46,37 @@
   border-bottom: 2px var(--blue-prim) solid;
 }
 
-.heading-4 {
+.portions {
   padding-left: 15px;
+}
+
+.ingr {
+  margin-bottom: 24px;
+}
+
+.legume {
+  padding-left: 0px;
+  margin-bottom: 14px;
+}
+
+.label-number {
+  display: inline-block;
+}
+
+.label-number1 {
+  margin-bottom: 79px;
+}
+
+.label-number2 {
+  margin-left: 15px;
+  margin-bottom: 22px;
+}
+
+.label-number4 {
+  margin-top: 17px;
+  margin-bottom: 22px;
+}
+
+.label2 {
+  margin-left: 15px;
 }
