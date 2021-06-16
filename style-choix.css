@@ -1,0 +1,41 @@
+
+.logo {
+  width: 150px;
+
+}
+
+.header {
+  padding: 30px 16px 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.uil-bars {
+  font-size: 32px;
+}
+
+a.uil-bars {
+  text-decoration: none; /* il me fait chier ce ptn de lien */
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 30px;
+  /*margin-top: 30px;*/
+}
+
+/* .choice-card {
+  text-align: center;
+} */
+
+.choice-list {
+  margin: 0 0 15px 15px;
+}
+
+.choice-card {
+  margin-bottom: 20px;
+}
+
+.bouton {
+text-align: center;
+}

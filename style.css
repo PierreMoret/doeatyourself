@@ -68,6 +68,9 @@ body {
   padding: 70px 10% 0 10%;
 }
 
+.content-mobile {
+  padding: 25% 16px 0 16px;
+}
 /* //////////////////////////////////////////////////////////////////////////////////// */
 
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
@@ -141,6 +144,12 @@ span {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
+}
+
+.grid-mobile {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
 }
 
 .grid-1-2{
@@ -482,10 +491,8 @@ border-color: var(--blue-prim);
 .cc-action{
   text-transform: uppercase;
   font-size: 10px;
-  position: absolute;
-  top: 136px;
-  bottom: 0px;
-  margin-left: 16px;
+
+  margin: 5px 0 0 16px; */
 
 }
 
