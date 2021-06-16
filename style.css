@@ -489,10 +489,8 @@ border-color: var(--blue-prim);
 .cc-action{
   text-transform: uppercase;
   font-size: 10px;
-  position: absolute;
-  top: 136px;
-  bottom: 0px;
-  margin-left: 16px;
+
+  margin: 5px 0 0 16px; */
 
 }
 
