@@ -42,6 +42,7 @@
   display: flex;
   justify-content:center;
   margin: 19px 132px 16px 132px;
+  padding-bottom: 16px;
   border-bottom: 2px var(--blue-prim) solid;
 }
 
