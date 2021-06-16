@@ -63,12 +63,11 @@
   display: inline-block;
 }
 
-.label-number1 {
-  margin-bottom: 22px;
+.legumeb {
+  display: inline-grid;
 }
 
-.label-number2 {
-  margin-left: 15px;
+.label-number1 {
   margin-bottom: 22px;
 }
 
