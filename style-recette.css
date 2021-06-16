@@ -90,3 +90,28 @@
   margin-top: 31px;
   text-decoration-line: underline;
 }
+
+.card-materiel-flex {
+  display: flex;
+  margin-top: 44px;
+  margin-bottom: 80px;
+}
+
+.card-materiel {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 10px 45px 30px 0;
+  display: inline-grid;
+  justify-items: center;
+  width: 156px;
+  height: 156px;
+}
+
+.card-materiel img {
+  margin-top: 15px;
+}
+
+img.poele{
+  margin-top: 1px;
+}
