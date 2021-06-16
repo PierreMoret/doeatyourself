@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style-etapes.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <title>Do Eat yourself</title>
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
@@ -47,74 +48,352 @@
 
       <h1 class="heading-1 ">Cuisiner organisé</h1>
 
-      <ul class="action-list heading-1">
-        <li> <a class="act-act" href="#">Laver</a></li>
-        <li><a href="#">Couper</a></li>
-        <li><a href="#">Cuire</a></li>
-        <li><a href="#">Final</a></li>
-        <li><a href="#">Vaisselle</a></li>
+      <ul class="action-list heading-1 ">
+        <li><a id="laver" class="g2 active" href="#">Laver</a></li>
+        <li><a id="couper" class="g2" href="#">Couper</a></li>
+        <li><a id="cuire" class="g2" href="#">Cuire</a></li>
+        <li><a id="final" class="g2" href="#">Final</a></li>
+        <li><a id="vaisselle" class="g2" href="#">Vaisselle</a></li>
       </ul>
     </div>
 
-    <div class="banniere" style="background-image: url(assets/img/laver.jpg);"></div>
+  <div class="etape">
 
-    <div class="content">
-          <div class="grid grid-1-4">
+    <div id="laver" class="">
 
-                <div class="food-list">
+      <div class="banniere" style="background-image: url(assets/img/laver.jpg);"></div>
 
-                  <h3  class="heading-5">poulet au curry</h3>
+      <div class="content">
+            <div class="grid grid-1-4">
 
-                  <div class="label-number">
-                    <span class="heading-3 red-sec">2</span>
-                    <span class="heading-4 g5">Oignons</span>
+                  <div class="food-list">
+
+                    <h3  class="heading-5">poulet au curry</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">2</span>
+                      <span class="heading-4 g5">Oignons</span>
+                    </div>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">1</span>
+                      <span class="heading-4 g5">Poivron</span>
+                    </div>
+
                   </div>
 
-                  <div class="label-number">
-                    <span class="heading-3 red-sec">1</span>
-                    <span class="heading-4 g5">Poivron</span>
+                  <div class="food-list">
+
+                    <h3  class="heading-5">quiche chèvre épinards</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">300g</span>
+                      <span class="heading-4 g5">Épinards</span>
+                    </div>
+
                   </div>
 
-                </div>
+                  <div class="food-list">
 
-                <div class="food-list">
+                     <h3 class="heading-5"> risotto poireaux poulet </h3>
 
-                  <h3  class="heading-5">quiche chèvre épinards</h3>
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">2-3</span>
+                       <span class="heading-4 g5">Poireaux</span>
+                     </div>
 
-                  <div class="label-number">
-                    <span class="heading-3 red-sec">300g</span>
-                    <span class="heading-4 g5">Épinards</span>
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">4</span>
+                       <span class="heading-4 g5">Carottes</span>
+                     </div>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">1</span>
+                       <span class="heading-4 g5">Oignon</span>
+                     </div>
+
                   </div>
 
-                </div>
+                  <div class="heading-5 food-list"></div>
 
-                <div class="food-list">
-
-                   <h3 class="heading-5"> risotto poireaux poulet </h3>
-
-                   <div class="label-number">
-                     <span class="heading-3 red-sec">2-3</span>
-                     <span class="heading-4 g5">Poireaux</span>
-                   </div>
-
-                   <div class="label-number">
-                     <span class="heading-3 red-sec">4</span>
-                     <span class="heading-4 g5">Carottes</span>
-                   </div>
-
-                   <div class="label-number">
-                     <span class="heading-3 red-sec">1</span>
-                     <span class="heading-4 g5">Oignon</span>
-                   </div>
-
-                </div>
-
-                <div class="heading-5 food-list"></div>
-
-            </div>
+              </div>
 
 
-      </div>
+        </div>
+    </div>
+
+    <div id="couper" class="content-none">
+
+      <div class="banniere" style="background-image: url(assets/img/couper.jpg);"></div>
+
+      <div class="content">
+            <div class="grid grid-1-4">
+
+                  <div class="food-list">
+
+                    <h3  class="heading-5">poulet au curry</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">2</span>
+                      <span class="heading-4 g5">Oignons</span>
+                    </div>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">1</span>
+                      <span class="heading-4 g5">Poivron</span>
+                    </div>
+
+                  </div>
+
+                  <div class="food-list">
+
+                    <h3  class="heading-5">quiche chèvre épinards</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">300g</span>
+                      <span class="heading-4 g5">Épinards</span>
+                    </div>
+
+                  </div>
+
+                  <div class="food-list">
+
+                     <h3 class="heading-5"> risotto poireaux poulet </h3>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">2-3</span>
+                       <span class="heading-4 g5">Poireaux</span>
+                     </div>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">4</span>
+                       <span class="heading-4 g5">Carottes</span>
+                     </div>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">1</span>
+                       <span class="heading-4 g5">Oignon</span>
+                     </div>
+
+                  </div>
+
+                  <div class="heading-5 food-list"></div>
+
+              </div>
+
+
+        </div>
+    </div>
+
+    <div id="cuire" class="content-none">
+
+      <div class="banniere" style="background-image: url(assets/img/cuire.jpg);"></div>
+
+      <div class="content">
+            <div class="grid grid-1-4">
+
+                  <div class="food-list">
+
+                    <h3  class="heading-5">poulet au curry</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">2</span>
+                      <span class="heading-4 g5">Oignons</span>
+                    </div>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">1</span>
+                      <span class="heading-4 g5">Poivron</span>
+                    </div>
+
+                  </div>
+
+                  <div class="food-list">
+
+                    <h3  class="heading-5">quiche chèvre épinards</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">300g</span>
+                      <span class="heading-4 g5">Épinards</span>
+                    </div>
+
+                  </div>
+
+                  <div class="food-list">
+
+                     <h3 class="heading-5"> risotto poireaux poulet </h3>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">2-3</span>
+                       <span class="heading-4 g5">Poireaux</span>
+                     </div>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">4</span>
+                       <span class="heading-4 g5">Carottes</span>
+                     </div>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">1</span>
+                       <span class="heading-4 g5">Oignon</span>
+                     </div>
+
+                  </div>
+
+                  <div class="heading-5 food-list"></div>
+
+              </div>
+
+
+        </div>
+    </div>
+
+    <div id="final" class="content-none">
+
+      <div class="banniere" style="background-image: url(assets/img/final.jpg);"></div>
+
+      <div class="content">
+            <div class="grid grid-1-4">
+
+                  <div class="food-list">
+
+                    <h3  class="heading-5">poulet au curry</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">2</span>
+                      <span class="heading-4 g5">Oignons</span>
+                    </div>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">1</span>
+                      <span class="heading-4 g5">Poivron</span>
+                    </div>
+
+                  </div>
+
+                  <div class="food-list">
+
+                    <h3  class="heading-5">quiche chèvre épinards</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">300g</span>
+                      <span class="heading-4 g5">Épinards</span>
+                    </div>
+
+                  </div>
+
+                  <div class="food-list">
+
+                     <h3 class="heading-5"> risotto poireaux poulet </h3>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">2-3</span>
+                       <span class="heading-4 g5">Poireaux</span>
+                     </div>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">4</span>
+                       <span class="heading-4 g5">Carottes</span>
+                     </div>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">1</span>
+                       <span class="heading-4 g5">Oignon</span>
+                     </div>
+
+                  </div>
+
+                  <div class="heading-5 food-list"></div>
+
+              </div>
+
+
+        </div>
+    </div>
+
+    <div id="vaisselle" class="content-none">
+
+      <div class="banniere" style="background-image: url(assets/img/vaisselle.jpg);"></div>
+
+      <div class="content">
+            <div class="grid grid-1-4">
+
+                  <div class="food-list">
+
+                    <h3  class="heading-5">poulet au curry</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">2</span>
+                      <span class="heading-4 g5">Oignons</span>
+                    </div>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">1</span>
+                      <span class="heading-4 g5">Poivron</span>
+                    </div>
+
+                  </div>
+
+                  <div class="food-list">
+
+                    <h3  class="heading-5">quiche chèvre épinards</h3>
+
+                    <div class="label-number">
+                      <span class="heading-3 red-sec">300g</span>
+                      <span class="heading-4 g5">Épinards</span>
+                    </div>
+
+                  </div>
+
+                  <div class="food-list">
+
+                     <h3 class="heading-5"> risotto poireaux poulet </h3>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">2-3</span>
+                       <span class="heading-4 g5">Poireaux</span>
+                     </div>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">4</span>
+                       <span class="heading-4 g5">Carottes</span>
+                     </div>
+
+                     <div class="label-number">
+                       <span class="heading-3 red-sec">1</span>
+                       <span class="heading-4 g5">Oignon</span>
+                     </div>
+
+                  </div>
+
+                  <div class="heading-5 food-list"></div>
+
+              </div>
+
+
+        </div>
+    </div>
+
+  </div>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+
+          $('.action-list li a').click(function(){
+            console.log('ça marche');
+            var thisID = $(this).attr('id');
+
+            $('.action-list li a').removeClass('active');
+            $(this).addClass('active');
+
+            $('.etape > div').addClass('content-none');
+            $('div #'+thisID).removeClass('content-none');
+
+
+          });
+
+        });
+      </script>
 
   </body>
 </html>

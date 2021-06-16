@@ -11,16 +11,26 @@
   justify-content: space-between;
   list-style: none;
   font-size: 45px;
+}
 
+.action-list a {
+  transition: all 0.3s ease 0s;
+}
+
+.action-list a:hover {
+  color: var(--blue-sec);
+}
+
+.active {
+  color: var(--blue-prim);
+}
+
+.content-none {
+  display: none;
 }
 
 .action-list a {
   text-decoration: none;
-  color: var(--g2);
-}
-
-a.act-act {
-  color: var(--blue-prim);
 }
 
 .banniere{
