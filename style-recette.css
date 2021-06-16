@@ -112,6 +112,24 @@
   margin-top: 15px;
 }
 
-img.poele{
+img.poele {
   margin-top: 1px;
+}
+
+.laver {
+  margin-top: 33px;
+  margin-bottom: 12px;
+}
+
+.etape {
+  margin-bottom: 15px;
+}
+
+.etape2 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  margin-right: 50px;
 }
