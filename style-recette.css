@@ -64,7 +64,7 @@
 }
 
 .label-number1 {
-  margin-bottom: 79px;
+  margin-bottom: 22px;
 }
 
 .label-number2 {
@@ -79,4 +79,8 @@
 
 .label2 {
   margin-left: 15px;
+}
+
+.prepare {
+  margin-bottom: 7px;
 }
