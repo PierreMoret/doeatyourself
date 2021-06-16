@@ -505,15 +505,6 @@ border-color: var(--blue-prim);
   height: 30px;
 }
 
-.choice-list {
-  display: flex;
-
-}
-
-.choice-list li {
-  list-style: initial;
-  padding-left: 10px;
-}
 
 .choisie .cc-title{
   color: var(--red-sec);
