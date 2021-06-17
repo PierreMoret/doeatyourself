@@ -62,6 +62,7 @@
 body {
   font-family: 'Lato', sans-serif;
   color: var(--g6);
+  /* min-width: 300px; */
 }
 
 .content {
@@ -144,12 +145,6 @@ span {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
-}
-
-.grid-mobile {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 16px;
 }
 
 .grid-1-2{

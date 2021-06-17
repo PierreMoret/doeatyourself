@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
   </head>
@@ -30,6 +31,7 @@
       <h1 class="heading-4 title">Quelle tâche veux-tu compléter ?</h1>
 
       <div class="mobile-flex">
+
             <div class="choice-card choisie">
 
               <div class="cc-bg">
@@ -125,12 +127,13 @@
     <div class="bouton">
       <a href="#" class="btn-prim heading-4"> J'ai fais mon choix !</a>
     </div>
+  </div>
 
     <script type="text/javascript">
       $(document).ready(function(){
 
         $('.choice-card').click(function(){
-          console.log('ça marche');
+           console.log('ça marche');
           var thisID = $(this).attr('id');
 
           $('.choice-card').removeClass('choisie');
