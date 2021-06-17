@@ -26,6 +26,7 @@
   padding: 10px 0;
   display: flex;
   justify-content: center;
+
 }
 
 .top-col {
@@ -170,5 +171,5 @@ margin-right: 25px;
 }
 
 .active {
-  color: var(--blue-sec);
+  color: var(--blue-prim);
 }
