@@ -526,9 +526,19 @@ border-color: var(--blue-prim);
 background: var(--blue-sec);
 border: 1px var(--g1) solid;
 border-radius: 10px;
+width: 150px;
+height: 12px;
+box-shadow: inset -50px 0 0 var(--g1);
+margin: 0 10px 0 10px;;
+}
+
+/* .ingr-pb {
 width: 300px;
-height: 1rem;
-box-shadow: inset -150px 0 0 var(--g1);
+} */
+.quantity{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 35px;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
@@ -571,15 +581,6 @@ box-shadow: inset -150px 0 0 var(--g1);
 .pp-block{
   display: flex;
   margin-top: 16px;
-}
-
-.pp{
-
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  background: var(--g2);
-  margin-right: 5px;
 }
 
 .uil-comment-message {
