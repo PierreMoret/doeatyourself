@@ -578,15 +578,6 @@ box-shadow: inset -150px 0 0 var(--g1);
   margin-top: 16px;
 }
 
-.pp{
-
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  background: var(--g2);
-  margin-right: 5px;
-}
-
 .uil-comment-message {
   color: var(--g6);
   font-size: 24px;
