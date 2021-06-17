@@ -40,3 +40,30 @@
 a.uil-bars {
   text-decoration: none; /* il me fait chier ce ptn de lien */
 }
+
+.heading-1 {
+  padding: 0;
+  margin: 0;
+}
+
+.contenu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+}
+
+.ingredients > div{
+  margin: 7px;
+  align-items: center;
+}
+
+.uil-angle-right, .uil-angle-left {
+  font-size: 62px;
+  color: var(--g5);
+}

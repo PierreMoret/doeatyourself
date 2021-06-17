@@ -58,6 +58,10 @@ section {
   align-items: center;
 }
 
+.food-list > div {
+  margin: 10px;
+}
+
 .content1 {
   padding: 0px 144px 50px 144px;
 }
