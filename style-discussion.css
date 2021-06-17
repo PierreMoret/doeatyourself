@@ -124,13 +124,14 @@ margin-right: 25px;
   cursor: pointer;
 }
 
+
 .uil-image {
   cursor: pointer;
 }
 
 .uil-plus-circle:hover {
   cursor: pointer;
-  color: var(--blue-);
+  color: var(--blue-sec);
 }
 
 
