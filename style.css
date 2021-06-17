@@ -68,9 +68,9 @@ body {
   padding: 70px 10% 0 10%;
 }
 
-.content-mobile {
+/* .content-mobile {
   padding: 25% 16px 0 16px;
-}
+} */
 /* //////////////////////////////////////////////////////////////////////////////////// */
 
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
@@ -478,7 +478,7 @@ border-color: var(--blue-prim);
 /* //////////////////////////////////////////////////////////////////////////////////// */
 
 /* cartes choix taches */
-.choice-card{
+/* .choice-card{
   width: 164px;
 }
 
@@ -492,7 +492,7 @@ border-color: var(--blue-prim);
   text-transform: uppercase;
   font-size: 10px;
 
-  margin: 5px 0 0 16px; */
+  margin: 5px 0 0 16px;
 
 }
 
@@ -521,7 +521,7 @@ border-color: var(--blue-prim);
 
 .choisie .cc-bott {
   background: var(--red-sec);
-}
+} */
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
 
