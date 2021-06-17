@@ -12,24 +12,26 @@
 
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
   </head>
 
   <body>
 
-    <header class="header">
+    <header class="header noSelect">
       <img class="logo" src="assets/img/logo.png" alt="logo">
 
       <a href="#"><i class="uil uil-bars"></i></a>
     </header>
 
 
-    <div class="content-mobile">
+    <div class="content-mobile noSelect">
 
       <h1 class="heading-4 title">Quelle tâche veux-tu compléter ?</h1>
 
-      <div class="mobile-flex">
+      <div class="grid-mobile">
+
             <div class="choice-card choisie">
 
               <div class="cc-bg">
@@ -69,7 +71,7 @@
               </div>
 
               <div class="cc-bott heading-6">
-               Je suis à double tranchant
+               Je suis tranchant
               </div>
 
             </div>
@@ -125,12 +127,13 @@
     <div class="bouton">
       <a href="#" class="btn-prim heading-4"> J'ai fais mon choix !</a>
     </div>
+  </div>
 
     <script type="text/javascript">
       $(document).ready(function(){
 
         $('.choice-card').click(function(){
-          console.log('ça marche');
+           console.log('ça marche');
           var thisID = $(this).attr('id');
 
           $('.choice-card').removeClass('choisie');
