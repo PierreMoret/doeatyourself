@@ -70,6 +70,7 @@ margin-right: 25px;
 .uil-times-circle {
   font-size: 24px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .message-feed {
@@ -116,4 +117,17 @@ margin-right: 25px;
   border-radius: 15px;
   margin: 20px;
   width: auto;
+}
+
+.uil-plus {
+  cursor: pointer;
+}
+
+.uil-image {
+  cursor: pointer;
+}
+
+.uil-plus-circle:hover {
+  cursor: pointer;
+  color: var(--blue-);
 }
