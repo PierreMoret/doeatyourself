@@ -142,3 +142,16 @@ margin-right: 25px;
   background-size: 150% auto;
   background-position: 20% center;
 }
+
+.ingr-list li{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+
+.pbi {
+  display: flex;
+  align-items: center;
+}
