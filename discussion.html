@@ -115,7 +115,7 @@
           </div>
           <div class="middle-col">
             <div class="tabs heading-4">
-              <ul class="nav-link">
+              <ul class="tab-link">
                 <li><a id="menu" class="active g6" href="#">Menu</a></li>
                 <li><a id="courses" class="g6" href="#">Courses</a></li>
                 <li><a id="materiel" class="g6" href="#">Matériel</a></li>
@@ -293,11 +293,11 @@
       <script type="text/javascript">
         $(document).ready(function(){
 
-          $('.nav-link li a').click(function(){
+          $('.tab-link li a').click(function(){
             console.log('ça marche');
             var thisID = $(this).attr('id');
 
-            $('.nav-link li a').removeClass('active');
+            $('.tab-link li a').removeClass('active');
             $(this).addClass('active');
 
             $('div #'+thisID).removeClass('content-none');
