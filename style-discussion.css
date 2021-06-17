@@ -148,10 +148,13 @@ margin-right: 25px;
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 
 .pbi {
   display: flex;
   align-items: center;
+
+
 }
