@@ -154,7 +154,21 @@ margin-right: 25px;
 
 .pbi {
   display: flex;
+
+}
+
+.material-list li {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+}
 
+.content-none {
+  display: none;
+}
 
+.active {
+  color: var(--blue-sec);
 }
