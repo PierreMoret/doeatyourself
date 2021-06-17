@@ -4,6 +4,14 @@
   margin-bottom: 9px;
 }
 
+.part1 {
+
+}
+
+.part2 {
+  margin-left: 20px;
+}
+
 .card-flex {
   display: flex;
   justify-content: space-between;
