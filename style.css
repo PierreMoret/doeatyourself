@@ -529,7 +529,7 @@ border-radius: 10px;
 width: 150px;
 height: 12px;
 box-shadow: inset -50px 0 0 var(--g1);
-margin: 0 10px 0 10px;;
+margin: 0 10px 0 10px;
 }
 
 /* .ingr-pb {
@@ -539,6 +539,7 @@ width: 300px;
   display: flex;
   justify-content: flex-end;
   margin-right: 35px;
+  margin-top: -5px;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
