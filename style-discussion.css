@@ -124,7 +124,9 @@ margin-right: 25px;
   cursor: pointer;
 }
 
-
+ .message .uil-plus-circle {
+  margin-left: 10px;
+ }
 .uil-image {
   cursor: pointer;
 }
