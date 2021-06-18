@@ -79,11 +79,32 @@ h2.heading-3 {
 .matos {
   display: flex;
   justify-content:space-between;
+
   width: 130px;
+
 
 }
 .outil {
   width: 40px;
   height: auto;
+  margin-top: 20px;
   /* margin-right: 50px; */
+}
+
+.btn-sec {
+margin-bottom: 10px;
+}
+
+.astuce {
+  font-weight: bold;
+  color: var(--blue-prim);
+}
+
+.final {
+margin : 20px 60px 0 60px;
+}
+
+.btn-prim {
+  width: 200px;
+  text-align: center;
 }
