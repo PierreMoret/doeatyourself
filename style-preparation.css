@@ -29,7 +29,7 @@
 
 .content-mobile {
   top: 0;
-  padding: 80px 5%;
+  padding: 90px 5%;
 }
 
 .uil-bars {
@@ -46,6 +46,14 @@ a.uil-bars {
   margin: 0;
 }
 
+p {
+  margin-top: 25px;
+}
+
+h2.heading-3 {
+  font-weight: 500;
+}
+
 .contenu {
   display: flex;
   align-items: center;
@@ -55,7 +63,7 @@ a.uil-bars {
 .ingredients {
   display: flex;
   flex-direction: column;
-  margin: 0 50px;
+  margin: 70px 50px 70px 50px;
 }
 
 .ingredients > div{
