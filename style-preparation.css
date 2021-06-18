@@ -3,7 +3,7 @@
 }
 
 .header {
-  padding: 30px 16px 0 16px;
+  padding: 20px 16px 0 16px;
   display: flex;
   align-items: center;
   z-index: 1000;
@@ -29,7 +29,7 @@
 
 .content-mobile {
   top: 0;
-  padding: 90px 5%;
+  padding: 60px 5%;
 }
 
 .uil-bars {
@@ -54,16 +54,26 @@ h2.heading-3 {
   font-weight: 500;
 }
 
+.nom {
+  margin-bottom: 20px;
+}
+
 .contenu {
-  display: flex;
+  display: none;
   align-items: center;
   flex-direction: column;
+  height: 65vh;
+}
+
+.active {
+  display: flex
 }
 
 .ingredients {
   display: flex;
   flex-direction: column;
-  margin: 70px 50px 70px 50px;
+  margin: 30px 50px;;
+  align-items: center;
 }
 
 .ingredients > div{
@@ -74,6 +84,7 @@ h2.heading-3 {
 .uil-angle-right, .uil-angle-left {
   font-size: 62px;
   color: var(--g5);
+  margin: 0 15px;
 }
 
 .matos {
@@ -107,4 +118,12 @@ margin : 20px 60px 0 60px;
 .btn-prim {
   width: 200px;
   text-align: center;
+}
+
+.fleches {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  top: 650px;
+  margin: 0 auto;
 }

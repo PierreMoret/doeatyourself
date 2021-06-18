@@ -22,18 +22,18 @@
     <header class="header noSelect">
 
       <img class="logo" src="assets/img/logo.png" alt="logo">
-      <a href="#"><i class="uil uil-bars"></i></a>
+      <a href="choix.html"><i class="uil uil-bars"></i></a>
 
     </header>
 
 
     <div class="content-mobile noSelect">
-      <h3 class="heading-3">Théo</h1>
+      <h3 class="heading-3 nom">Théo</h1>
 
         <!-- ///////////////////// PAGE 1 ///////////////////////// -->
 
 
-      <div class="contenu">
+      <div class="contenu active">
         <h1 class="heading-2"> Etapes 1 - Laver</h1>
         <p class="text-large">Passer à l’eau clair l’ensemble des aliments afin d’enlever les résidus éventuels  </p>
         <div class="ingredients">
@@ -48,10 +48,6 @@
 
         </div>
 
-        <nav>
-          <a href="#"><i class="uil uil-angle-left"></i></a>
-          <a href="#"><i class="uil uil-angle-right"></i></a>
-        </nav>
 
       </div>
 
@@ -76,19 +72,14 @@
           </div>
         </div>
 
-        <a href="#" class="btn-sec heading-4"> VOIR UN TUTO</a>
-
-        <nav>
-          <a href="#"><i class="uil uil-angle-left"></i></a>
-          <a href="#"><i class="uil uil-angle-right"></i></a>
-        </nav>
+        <a href="#" class="btn-sec heading-5"> VOIR UN TUTO</a>
 
       </div>
 
       <!-- ///////////////////// PAGE 3 ///////////////////////// -->
 
       <div class="contenu">
-        <h1 class="heading-2"> Etapes 2 - Couper</h1>
+        <h1 class="heading-2"> Etapes 3 - Couper</h1>
         <h2 class="heading-3">Poivron</h2>
         <p class="text-large">Émincer le poivron en fines lamelles.
           <br>
@@ -107,12 +98,7 @@
           </div>
         </div>
 
-        <a href="#" class="btn-sec heading-4"> VOIR UN TUTO</a>
-
-        <nav>
-          <a href="#"><i class="uil uil-angle-left"></i></a>
-          <a href="#"><i class="uil uil-angle-right"></i></a>
-        </nav>
+        <a href="#" class="btn-sec heading-5"> VOIR UN TUTO</a>
 
       </div>
 
@@ -120,7 +106,7 @@
   <!-- ///////////////////// PAGE 4 ///////////////////////// -->
 
   <div class="contenu">
-    <h1 class="heading-2"> Etapes 2 - Couper</h1>
+    <h1 class="heading-2"> Etapes 4 - Couper</h1>
     <h2 class="heading-3">Oignons</h2>
     <p class="text-large">Émincer les oignons en lamelles ou petits cubes.
       <br>
@@ -139,19 +125,14 @@
       </div>
     </div>
 
-    <a href="#" class="btn-sec heading-4"> VOIR UN TUTO</a>
-
-    <nav>
-      <a href="#"><i class="uil uil-angle-left"></i></a>
-      <a href="#"><i class="uil uil-angle-right"></i></a>
-    </nav>
+    <a href="#" class="btn-sec heading-5"> VOIR UN TUTO</a>
 
   </div>
 
   <!-- ///////////////////// PAGE 5 ///////////////////////// -->
 
   <div class="contenu">
-    <h1 class="heading-2"> Etapes 2 - Couper</h1>
+    <h1 class="heading-2"> Etapes 5 - Couper</h1>
     <h2 class="heading-3">Fromage de chèvre</h2>
     <p class="text-large">Couper le fromage de chèvre en rondelles entre 0.5 et 1 cm.
       <br>
@@ -170,12 +151,7 @@
       </div>
     </div>
 
-    <a href="#" class="btn-sec heading-4"> VOIR UN TUTO</a>
-
-    <nav>
-      <a href="#"><i class="uil uil-angle-left"></i></a>
-      <a href="#"><i class="uil uil-angle-right"></i></a>
-    </nav>
+    <a href="#" class="btn-sec heading-5"> VOIR UN TUTO</a>
 
   </div>
 
@@ -201,6 +177,12 @@
 
   </div>
 
+
+          <nav class="fleches">
+            <a ><i class="uil uil-angle-left prev"></i></a>
+            <a ><i class="uil uil-angle-right next"></i></a>
+          </nav>
+
     <!-- <div class="bouton">
       <a href="#" class="btn-prim heading-4"> J'ai fais mon choix !</a>
     </div> -->
@@ -210,18 +192,51 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
+        var page = 1;
 
-        $('.choice-card').click(function(){
-           console.log('ça marche');
-          var thisID = $(this).attr('id');
+        // $('.choice-card').click(function(){
+        //    console.log('ça marche');
+        //   var thisID = $(this).attr('id');
+        //
+        //   $('.choice-card').removeClass('choisie');
+        //   $(this).addClass('choisie');
 
-          $('.choice-card').removeClass('choisie');
-          $(this).addClass('choisie');
+        $(".next").click(function() {
+          $(".content-mobile")
+            .find(".contenu.active")
+            .next()
+            .addClass("active");
+          $(".content-mobile")
+            .find(".contenu.active")
+            .prev()
+            .removeClass("active");
+            page = page + 1;
+            console.log(page);
+        });
 
+        $(".prev").click(function() {
+          $(".content-mobile")
+            .find(".contenu.active")
+            .prev()
+            .addClass("active");
+          $(".content-mobile")
+            .find(".contenu.active")
+            .next()
+            .removeClass("active");
+            page = page - 1;
+            console.log(page);
 
         });
 
+        // function navToggle() {
+        //   if (page = 6) {
+        //     console.log('c est finit');
+        //
+        //   }
+        // }
+
       });
+
     </script>
 
 
