@@ -75,3 +75,15 @@ h2.heading-3 {
   font-size: 62px;
   color: var(--g5);
 }
+
+.matos {
+  display: flex;
+  justify-content:space-between;
+  width: 130px;
+
+}
+.outil {
+  width: 40px;
+  height: auto;
+  /* margin-right: 50px; */
+}
