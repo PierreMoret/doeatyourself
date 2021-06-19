@@ -162,8 +162,14 @@ img.poele {
 
 .uis-angle-left {
   font-size: 24px;
+  cursor: pointer;
 }
 
 .uis-angle-right {
   font-size: 24px;
+  cursor: pointer;
+}
+
+.gallery img {
+  cursor: pointer;
 }
