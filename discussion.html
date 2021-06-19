@@ -323,7 +323,7 @@
                 <i id="add-poulet" class="uil uil-plus-circle blue-prim picto-24"></i>
               </div>
 
-              <div class="message message-theo">
+              <div id="msg-theo" class="display-none">
                 <div class="message-text">
                   <p class="text-regular">Salut, ça me va très bien, je viens de valider le poulet au curry !</p>
                 </div>
@@ -367,7 +367,12 @@
 
           $('#add-poulet').click(function(){
             $('#poulet').addClass('plat').removeClass('display-none');
+            $('#msg-theo').addClass('message message-theo').removeClass('display-none');
+            $('.message-feed').animate({
+              scrollTop: $('.message-feed')[0].scrollHeight - $('.message-feed')[0].clientHeight
+            }, 1000);
           });
+
           $('#add-quiche').click(function(){
             $('#quiche').addClass('plat').removeClass('display-none');
           });
