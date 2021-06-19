@@ -72,8 +72,8 @@
 }
 
 .uil-receipt-alt {
-font-size: 24px;
-margin-right: 25px;
+  font-size: 24px;
+  margin-right: 25px;
 }
 
 .uil-times-circle {
@@ -117,8 +117,8 @@ margin-right: 25px;
   margin-left: 20px;
 }
 
-.message-feed .message-theo {
-  justify-content: flex-end;
+.message-theo {
+  align-self: flex-end;
 }
 
 .line-up {
