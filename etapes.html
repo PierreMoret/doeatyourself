@@ -49,11 +49,11 @@
       <h1 class="heading-1 ">Cuisiner organisé</h1>
 
       <ul class="action-list heading-1 ">
-        <li><a id="laver" class="g2 active" href="#">Laver</a></li>
-        <li><a id="couper" class="g2" href="#">Couper</a></li>
-        <li><a id="cuire" class="g2" href="#">Cuire</a></li>
-        <li><a id="final" class="g2" href="#">Final</a></li>
-        <li><a id="vaisselle" class="g2" href="#">Vaisselle</a></li>
+        <li><a id="laver" class="g2 active">Laver</a></li>
+        <li><a id="couper" class="g2">Couper</a></li>
+        <li><a id="cuire" class="g2">Cuire</a></li>
+        <li><a id="final" class="g2">Final</a></li>
+        <li><a id="vaisselle" class="g2">Vaisselle</a></li>
       </ul>
     </div>
 
@@ -119,6 +119,9 @@
               </div>
 
 
+        </div>
+        <div class="next-link">
+          <a href="#" id="couper" class="btn-prim heading-4" >Prochaine étape : <b>Couper</b> </a>
         </div>
     </div>
 
@@ -224,6 +227,9 @@
               </section>
 
 
+        </div>
+        <div class="next-link">
+          <a href="#" id="cuire" class="btn-prim heading-4" >Prochaine étape : <b>Cuire</b> </a>
         </div>
     </div>
 
@@ -425,9 +431,11 @@
                     </div>
 
                   </section>
-
-
+          </div>
+        <div class="next-link">
+          <a href="#" id="final" class="btn-prim heading-4" >Prochaine étape : <b>Final</b> </a>
         </div>
+
     </div>
 
     <div id="final" class="content-none">
@@ -475,6 +483,9 @@
               </div>
 
 
+        </div>
+        <div class="next-link">
+          <a href="#" id="vaisselle" class="btn-prim heading-4" >Prochaine étape : <b>Vaiselle</b> </a>
         </div>
     </div>
 
@@ -546,6 +557,18 @@
             $('.etape > div').addClass('content-none');
             $('div #'+thisID).removeClass('content-none');
 
+          });
+
+          $('.next-link a').click(function(){
+            console.log('ça marche 2');
+            var nextID = $(this).attr('id');
+            console.log(nextID);
+
+            $('.action-list li a').removeClass('active');
+            $('.action-list li #'+nextID).addClass('active');
+
+            $('.etape > div').addClass('content-none');
+            $('div #'+nextID).removeClass('content-none');
 
           });
 

@@ -19,6 +19,7 @@ section {
 
 .action-list a {
   transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 .action-list a:hover {
@@ -64,4 +65,10 @@ section {
 
 .content1 {
   padding: 0px 144px 50px 144px;
+}
+
+.next-link {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }

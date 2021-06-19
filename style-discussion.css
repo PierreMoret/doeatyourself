@@ -2,6 +2,10 @@
   padding: 0;
 }
 
+.content {
+  padding-bottom: 0;
+}
+
 .container {
   background: var(--g1);
   border-radius: 15px;
@@ -173,6 +177,7 @@ margin-right: 25px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .content-none {
