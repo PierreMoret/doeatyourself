@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+2<!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -126,17 +126,17 @@
 
 
             <div id="menu" class="list">
-              <div  class="plat">
+              <div id="risotto" class="plat">
                 <i class="uil uil-receipt-alt blue-prim"></i>
                 <div class="label-defaut heading-4">Risotto poireaux poulet</div>
                 <i class="uil uil-times-circle g3"></i>
               </div>
-              <div class="plat">
+              <div id="quiche" class="plat">
                 <i class="uil uil-receipt-alt blue-prim"></i>
                 <div class="label-defaut heading-4">Quiche chèvre épinard</div>
                 <i class="uil uil-times-circle g3"></i>
               </div>
-              <div class="plat">
+              <div id="poulet" class="display-none">
                 <i class="uil uil-receipt-alt blue-prim"></i>
                 <div class="label-defaut heading-4">Poulet au curry</div>
                 <i class="uil uil-times-circle g3"></i>
@@ -257,11 +257,72 @@
             <a class="btn-prim heading-4" href="etapes.html">Valider le menu</a>
           </div>
           <div class="right-col">
+
             <div class="message-feed">
               <div class="message">
                 <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
                 <div class="message-text">
-                  <p class="text-regular">Du coup, on a déjà 3 plats maintenant.</p>
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
+                </div>
+              </div>
+              <div class="message">
+                <div class="profil-picture"  style="background-image: url(assets/img/profile1.png);"></div>
+                <div class="message-text">
+                  <p class="text-regular">Du coup, on a déjà 2 plats maintenant.</p>
                 </div>
               </div>
               <div class="message">
@@ -275,10 +336,11 @@
                 <div class="message-text">
                   <a class="text-regular g6" href="recette.html">Le poulet au curry</a>
                 </div>
-                <i class="uil uil-plus-circle blue-prim picto-24"></i>
+                <i id="add-poulet" class="uil uil-plus-circle blue-prim picto-24"></i>
               </div>
 
             </div>
+
             <div class="message-field">
               <i class="uil uil-plus blue-sec picto-24"></i>
               <i class="uil uil-image blue-sec picto-24"></i>
@@ -291,6 +353,8 @@
 
       <script type="text/javascript">
         $(document).ready(function(){
+
+          $('.message-feed').scrollTop($('.message-feed')[0].scrollHeight - $('.message-feed')[0].clientHeight);
 
           $('.tab-link li a').click(function(){
             console.log('ça marche');
@@ -306,6 +370,15 @@
 
 
           });
+
+          $('.uil-times-circle').click(function(){
+            $(this).parents('.plat').addClass('display-none').removeClass('plat');
+          });
+
+          $('#add-poulet').click(function(){
+            $('#poulet').addClass('plat').removeClass('display-none');
+          });
+
 
         });
       </script>
