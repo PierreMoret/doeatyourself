@@ -83,10 +83,13 @@ margin-right: 25px;
 }
 
 .message-feed {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   margin: 20px;
   padding: 20px;
   height: 430px;
+  width: auto;
   overflow: auto;
   scroll-behavior: smooth;
 }
@@ -112,6 +115,10 @@ margin-right: 25px;
   border-radius: 15px;
   padding: 10px;
   margin-left: 20px;
+}
+
+.message-feed .message-theo {
+  justify-content: flex-end;
 }
 
 .line-up {
@@ -206,4 +213,11 @@ margin-right: 25px;
 
 .tab-link li a:hover {
   color: var(--blue-sec);
+}
+
+.message-theo .message-text{
+  background-color: var(--blue-prim);
+  color: white;
+  margin-right: 10px;
+  align-items: flex-end;
 }
