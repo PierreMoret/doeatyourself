@@ -563,6 +563,7 @@ width: 300px;
   /* height: 80px; */
   padding: 19px 27px 19px 27px;
   border-radius: 9px 0 0 0;
+  cursor: pointer;
 }
 
 .discussion-list-marie .uil-comment-message{
@@ -588,6 +589,7 @@ width: 300px;
 
 .discussion-list:hover {
   background: var(--g2);
+  cursor: pointer;
 }
 
 .pp-block{
@@ -622,6 +624,10 @@ width: 300px;
   border-radius: 0 0 0 9px;
 }
 
+.discussion-list-bottom:hover {
+    background: var(--g2);
+    cursor: pointer;
+}
 /* //////////////////////////////////////////////////////////////////////////////////// */
 
 
